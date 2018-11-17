@@ -1,6 +1,5 @@
-## See my application for identifying plants - [Plant Care](https://plants-care.com). It works using the code from the model implemented in this repo.
 
-# Keras pretrained models (VGG16, InceptionV3, Resnet50, Resnet152) + Transfer Learning for predicting classes in the Oxford 102 flower dataset (or any custom dataset)
+# Keras(1.x not compatible to keras 2.x) pretrained models (VGG16, InceptionV3, Resnet50, Resnet152) + Transfer Learning for predicting classes in the Oxford 102 flower dataset (or any custom dataset)
 
 This bootstraps the training of deep convolutional neural networks with [Keras](https://keras.io/) to classify images in the [Oxford 102 category flower dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
@@ -12,7 +11,7 @@ This bootstraps the training of deep convolutional neural networks with [Keras](
 
 ![Dataset directory's structure](/imgs/data_structure.png)
 
-*Notice:* for ResNet152 you should download weights manually [here](https://gist.github.com/flyyufelix/7e2eafb149f72f4d38dd661882c554a6) and put them under the `project_directory/weights`
+*Notice:* for ResNet152 you should download weights manually and put them under the `project_directory/weights`
 
 
 ## Overview
